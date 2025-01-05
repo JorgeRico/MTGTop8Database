@@ -14,3 +14,6 @@
 
 #### Notes:
 - If you want to load a different database, add .sql file on /data/ folder
+
+#### References
+- https://hub.docker.com
