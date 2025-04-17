@@ -1,19 +1,25 @@
 # Mtg Tournament Database
+
 - mysql + phpmyadmin
 
-#### Database container
+## Database container
+
 - docker-compose build
 - docker-compose up -d
 
-#### Database dumps
+## Database dumps
+
 - /dump/clean_database
 - /dump/last
 
-#### phpMyadmnin
-- http://localhost:18081
+## phpMyadmnin
 
-#### Notes:
+- <http://localhost:18081>
+
+## Notes
+
 - If you want to load a different database, add .sql file on /data/ folder
 
-#### References
-- https://hub.docker.com
+## References
+
+- <https://hub.docker.com>
