@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 18-04-2025 a las 19:47:45
+-- Tiempo de generación: 19-04-2025 a las 13:53:01
 -- Versión del servidor: 10.5.27-MariaDB-log
 -- Versión de PHP: 8.3.15
 
@@ -1841,7 +1841,7 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (1795, 'Opposition Agent', 2, 59, 'md', '2025-04-17 09:01:24', 'creature'),
 (1796, 'Orcish Bowmasters', 3, 59, 'md', '2025-04-17 09:01:24', 'creature'),
 (1797, 'Stalactite Stalker', 4, 59, 'md', '2025-04-17 09:01:25', 'creature'),
-(1798, 'Troll of Khazad-d˚m', 3, 59, 'md', '2025-04-17 09:01:25', ''),
+(1798, 'Troll of Khazad-dűm', 3, 59, 'md', '2025-04-17 09:01:25', 'creature'),
 (1799, 'Dark Ritual', 4, 59, 'md', '2025-04-17 09:01:25', 'instant'),
 (1800, 'Flare of Malice', 1, 59, 'md', '2025-04-17 09:01:25', 'instant'),
 (1801, 'Murderous Cut', 2, 59, 'md', '2025-04-17 09:01:25', 'instant'),
@@ -2180,9 +2180,9 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (2134, 'Pyroblast', 1, 70, 'sb', '2025-04-17 09:02:46', 'instant'),
 (2135, 'Unlicensed Hearse', 2, 70, 'sb', '2025-04-17 09:02:46', 'artifact'),
 (2136, 'Gemstone Mine', 3, 71, 'md', '2025-04-17 09:02:48', 'land'),
-(2137, 'Vault of Whispers', 4, 71, 'md', '2025-04-17 09:02:48', 'land'),
-(2138, 'Chancellor of the Annex', 4, 71, 'md', '2025-04-17 09:02:49', 'creature');
+(2137, 'Vault of Whispers', 4, 71, 'md', '2025-04-17 09:02:48', 'land');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(2138, 'Chancellor of the Annex', 4, 71, 'md', '2025-04-17 09:02:49', 'creature'),
 (2139, 'Elvish Spirit Guide', 4, 71, 'md', '2025-04-17 09:02:49', 'creature'),
 (2140, 'Simian Spirit Guide', 4, 71, 'md', '2025-04-17 09:02:49', 'creature'),
 (2141, 'Wild Cantor', 1, 71, 'md', '2025-04-17 09:02:50', 'creature'),
@@ -2887,9 +2887,9 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (2840, 'Go for the Throat', 1, 93, 'sb', '2025-04-17 09:05:32', 'instant'),
 (2841, 'Harbinger of the Seas', 2, 93, 'sb', '2025-04-17 09:05:32', 'creature'),
 (2842, 'Hydroblast', 1, 93, 'sb', '2025-04-17 09:05:32', 'instant'),
-(2843, 'Nihil Spellbomb', 1, 93, 'sb', '2025-04-17 09:05:32', 'artifact'),
-(2844, 'Null Rod', 2, 93, 'sb', '2025-04-17 09:05:33', 'artifact');
+(2843, 'Nihil Spellbomb', 1, 93, 'sb', '2025-04-17 09:05:32', 'artifact');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(2844, 'Null Rod', 2, 93, 'sb', '2025-04-17 09:05:33', 'artifact'),
 (2845, 'Surgical Extraction', 2, 93, 'sb', '2025-04-17 09:05:33', 'instant'),
 (2846, 'Toxic Deluge', 1, 93, 'sb', '2025-04-17 09:05:33', 'sorcery'),
 (2847, 'Flooded Strand', 2, 94, 'md', '2025-04-17 09:05:34', 'land'),
@@ -3585,9 +3585,9 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (3537, 'Unlicensed Hearse', 1, 115, 'sb', '2025-04-17 09:08:02', 'artifact'),
 (3538, 'Bayou', 1, 116, 'md', '2025-04-17 09:08:03', 'land'),
 (3539, 'Bloodstained Mire', 3, 116, 'md', '2025-04-17 09:08:03', 'land'),
-(3540, 'Misty Rainforest', 4, 116, 'md', '2025-04-17 09:08:03', 'land'),
-(3541, 'Taiga', 1, 116, 'md', '2025-04-17 09:08:03', 'land');
+(3540, 'Misty Rainforest', 4, 116, 'md', '2025-04-17 09:08:03', 'land');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(3541, 'Taiga', 1, 116, 'md', '2025-04-17 09:08:03', 'land'),
 (3542, 'Underground Sea', 2, 116, 'md', '2025-04-17 09:08:03', 'land'),
 (3543, 'Volcanic Island', 1, 116, 'md', '2025-04-17 09:08:04', 'land'),
 (3544, 'Beseech the Mirror', 4, 116, 'md', '2025-04-17 09:08:04', 'sorcery'),
@@ -4285,9 +4285,9 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (4236, 'Lórien Revealed', 1, 138, 'md', '2025-04-17 09:10:44', 'sorcery'),
 (4237, 'Show and Tell', 3, 138, 'md', '2025-04-17 09:10:45', 'sorcery'),
 (4238, 'Transmute Artifact', 4, 138, 'md', '2025-04-17 09:10:45', 'sorcery'),
-(4239, 'Copy Artifact', 4, 138, 'md', '2025-04-17 09:10:45', 'enchantment'),
-(4240, 'Coveted Jewel', 4, 138, 'md', '2025-04-17 09:10:45', 'artifact');
+(4239, 'Copy Artifact', 4, 138, 'md', '2025-04-17 09:10:45', 'enchantment');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(4240, 'Coveted Jewel', 4, 138, 'md', '2025-04-17 09:10:45', 'artifact'),
 (4241, 'Grim Monolith', 4, 138, 'md', '2025-04-17 09:10:45', 'artifact'),
 (4242, 'Lotus Petal', 4, 138, 'md', '2025-04-17 09:10:45', 'artifact'),
 (4243, 'Paradox Engine', 1, 138, 'md', '2025-04-17 09:10:45', 'artifact'),
@@ -4985,9 +4985,9 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (4935, 'Goblin Matron', 2, 161, 'md', '2025-04-17 09:13:19', 'creature'),
 (4936, 'Grief', 4, 161, 'md', '2025-04-17 09:13:20', 'creature'),
 (4937, 'Kiki-Jiki, Mirror Breaker', 2, 161, 'md', '2025-04-17 09:13:20', 'creature'),
-(4938, 'Munitions Expert', 2, 161, 'md', '2025-04-17 09:13:20', 'creature'),
-(4939, 'Skirk Prospector', 1, 161, 'md', '2025-04-17 09:13:21', 'creature');
+(4938, 'Munitions Expert', 2, 161, 'md', '2025-04-17 09:13:20', 'creature');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(4939, 'Skirk Prospector', 1, 161, 'md', '2025-04-17 09:13:21', 'creature'),
 (4940, 'Sling-Gang Lieutenant', 2, 161, 'md', '2025-04-17 09:13:21', 'creature'),
 (4941, 'Troll of Khazad-dűm', 3, 161, 'md', '2025-04-17 09:13:21', 'creature'),
 (4942, 'Fatal Push', 2, 161, 'md', '2025-04-17 09:13:21', 'instant'),
@@ -5680,9 +5680,9 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (5629, 'Karakas', 1, 185, 'md', '2025-04-17 09:16:13', 'land'),
 (5630, 'Planar Nexus', 4, 185, 'md', '2025-04-17 09:16:13', 'land'),
 (5631, 'The Tabernacle at Pendrell Vale', 1, 185, 'md', '2025-04-17 09:16:13', 'land'),
-(5632, 'Trenchpost', 1, 185, 'md', '2025-04-17 09:16:14', 'land'),
-(5633, 'Urza\'s Tower', 4, 185, 'md', '2025-04-17 09:16:14', 'land');
+(5632, 'Trenchpost', 1, 185, 'md', '2025-04-17 09:16:14', 'land');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(5633, 'Urza\'s Tower', 4, 185, 'md', '2025-04-17 09:16:14', 'land'),
 (5634, 'Wasteland', 1, 185, 'md', '2025-04-17 09:16:14', 'land'),
 (5635, 'Yavimaya, Cradle of Growth', 1, 185, 'md', '2025-04-17 09:16:14', 'land'),
 (5636, 'Elvish Spirit Guide', 4, 185, 'md', '2025-04-17 09:16:14', 'creature'),
@@ -6375,9 +6375,9 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (6323, 'Touch the Spirit Realm', 3, 206, 'md', '2025-04-17 09:19:00', 'enchantment'),
 (6324, 'Unlicensed Hearse', 1, 206, 'md', '2025-04-17 09:19:00', 'artifact'),
 (6325, 'Containment Priest', 2, 206, 'sb', '2025-04-17 09:19:00', 'creature'),
-(6326, 'Elesh Norn, Mother of Machines', 1, 206, 'sb', '2025-04-17 09:19:01', 'creature'),
-(6327, 'Leyline of the Void', 4, 206, 'sb', '2025-04-17 09:19:01', 'enchantment');
+(6326, 'Elesh Norn, Mother of Machines', 1, 206, 'sb', '2025-04-17 09:19:01', 'creature');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(6327, 'Leyline of the Void', 4, 206, 'sb', '2025-04-17 09:19:01', 'enchantment'),
 (6328, 'Loran of the Third Path', 1, 206, 'sb', '2025-04-17 09:19:01', 'creature'),
 (6329, 'Powder Keg', 1, 206, 'sb', '2025-04-17 09:19:01', 'artifact'),
 (6330, 'Swords to Plowshares', 4, 206, 'sb', '2025-04-17 09:19:01', 'instant'),
@@ -7071,10 +7071,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (7018, 'Burning Wish', 4, 228, 'md', '2025-04-17 09:21:35', 'sorcery'),
 (7019, 'Dark Ritual', 4, 228, 'md', '2025-04-17 09:21:35', 'instant'),
 (7020, 'Echo of Eons', 3, 228, 'md', '2025-04-17 09:21:35', 'sorcery'),
-(7021, 'Gaea\'s Will', 1, 228, 'md', '2025-04-17 09:21:35', 'sorcery'),
-(7022, 'Galvanic Relay', 3, 228, 'md', '2025-04-17 09:21:36', 'sorcery'),
-(7023, 'Gamble', 4, 228, 'md', '2025-04-17 09:21:36', 'sorcery');
+(7021, 'Gaea\'s Will', 1, 228, 'md', '2025-04-17 09:21:35', 'sorcery');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(7022, 'Galvanic Relay', 3, 228, 'md', '2025-04-17 09:21:36', 'sorcery'),
+(7023, 'Gamble', 4, 228, 'md', '2025-04-17 09:21:36', 'sorcery'),
 (7024, 'Tendrils of Agony', 1, 228, 'md', '2025-04-17 09:21:36', 'sorcery'),
 (7025, 'Veil of Summer', 4, 228, 'md', '2025-04-17 09:21:36', 'instant'),
 (7026, 'Chrome Mox', 4, 228, 'md', '2025-04-17 09:21:36', 'artifact'),
@@ -7420,7 +7420,7 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (7366, 'Eldrazi Linebreaker', 4, 239, 'md', '2025-04-17 09:22:58', 'creature'),
 (7367, 'Glaring Fleshraker', 4, 239, 'md', '2025-04-17 09:22:59', 'creature'),
 (7368, 'Sire of Seven Deaths', 1, 239, 'md', '2025-04-17 09:22:59', 'creature'),
-(7369, 'Sowing Mycospawn banned', 4, 239, 'md', '2025-04-17 09:22:59', ''),
+(7369, 'Sowing Mycospawn', 4, 239, 'md', '2025-04-17 09:22:59', 'creature'),
 (7370, 'Thought-Knot Seer', 4, 239, 'md', '2025-04-17 09:22:59', 'creature'),
 (7371, 'Wastescape Battlemage', 1, 239, 'md', '2025-04-17 09:22:59', 'creature'),
 (7372, 'Kozilek\'s Command', 4, 239, 'md', '2025-04-17 09:23:00', 'instant'),
@@ -7766,10 +7766,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (7712, 'Touch the Spirit Realm', 3, 250, 'md', '2025-04-17 09:24:34', 'enchantment'),
 (7713, 'Aven Mindcensor', 2, 250, 'sb', '2025-04-17 09:24:34', 'creature'),
 (7714, 'Containment Priest', 2, 250, 'sb', '2025-04-17 09:24:34', 'creature'),
-(7715, 'Leyline of the Void', 4, 250, 'sb', '2025-04-17 09:24:34', 'enchantment'),
-(7716, 'Loran of the Third Path', 2, 250, 'sb', '2025-04-17 09:24:34', 'creature'),
-(7717, 'Swords to Plowshares', 4, 250, 'sb', '2025-04-17 09:24:35', 'instant');
+(7715, 'Leyline of the Void', 4, 250, 'sb', '2025-04-17 09:24:34', 'enchantment');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(7716, 'Loran of the Third Path', 2, 250, 'sb', '2025-04-17 09:24:34', 'creature'),
+(7717, 'Swords to Plowshares', 4, 250, 'sb', '2025-04-17 09:24:35', 'instant'),
 (7718, 'Umezawa\'s Jitte', 1, 250, 'sb', '2025-04-17 09:24:35', 'artifact'),
 (7719, 'Blast Zone', 1, 251, 'md', '2025-04-17 09:24:36', 'land'),
 (7720, 'Bojuka Bog', 1, 251, 'md', '2025-04-17 09:24:36', 'land'),
@@ -8467,10 +8467,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (8412, 'Leyline of the Void', 3, 272, 'sb', '2025-04-17 09:27:27', 'enchantment'),
 (8413, 'Mindbreak Trap', 2, 272, 'sb', '2025-04-17 09:27:27', 'instant'),
 (8414, 'Opposition Agent', 1, 272, 'sb', '2025-04-17 09:27:28', 'creature'),
-(8415, 'Surgical Extraction', 2, 272, 'sb', '2025-04-17 09:27:28', 'instant'),
-(8416, 'The Battle of Bywater', 1, 272, 'sb', '2025-04-17 09:27:28', 'sorcery'),
-(8417, 'Thoughtseize', 2, 272, 'sb', '2025-04-17 09:27:28', 'sorcery');
+(8415, 'Surgical Extraction', 2, 272, 'sb', '2025-04-17 09:27:28', 'instant');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(8416, 'The Battle of Bywater', 1, 272, 'sb', '2025-04-17 09:27:28', 'sorcery'),
+(8417, 'Thoughtseize', 2, 272, 'sb', '2025-04-17 09:27:28', 'sorcery'),
 (8418, 'Ancient Tomb', 4, 273, 'md', '2025-04-17 09:27:30', 'land'),
 (8419, 'Island', 2, 273, 'md', '2025-04-17 09:27:30', 'land'),
 (8420, 'Otawara, Soaring City', 2, 273, 'md', '2025-04-17 09:27:31', 'land'),
@@ -9167,10 +9167,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (9111, 'Null Rod', 2, 294, 'sb', '2025-04-17 09:30:13', 'artifact'),
 (9112, 'Palantír of Orthanc', 1, 294, 'sb', '2025-04-17 09:30:13', 'artifact'),
 (9113, 'Plague Engineer', 2, 294, 'sb', '2025-04-17 09:30:14', 'creature'),
-(9114, 'Sheoldred\'s Edict', 1, 294, 'sb', '2025-04-17 09:30:14', 'instant'),
-(9115, 'Surgical Extraction', 2, 294, 'sb', '2025-04-17 09:30:14', 'instant'),
-(9116, 'Ancient Tomb', 3, 295, 'md', '2025-04-17 09:30:15', 'land');
+(9114, 'Sheoldred\'s Edict', 1, 294, 'sb', '2025-04-17 09:30:14', 'instant');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(9115, 'Surgical Extraction', 2, 294, 'sb', '2025-04-17 09:30:14', 'instant'),
+(9116, 'Ancient Tomb', 3, 295, 'md', '2025-04-17 09:30:15', 'land'),
 (9117, 'Boseiju, Who Shelters All', 2, 295, 'md', '2025-04-17 09:30:16', 'land'),
 (9118, 'City of Traitors', 2, 295, 'md', '2025-04-17 09:30:16', 'land'),
 (9119, 'Island', 3, 295, 'md', '2025-04-17 09:30:16', 'land'),
@@ -9858,10 +9858,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (9831, 'Hymn to Tourach', 3, 8333, 'md', '2025-04-17 14:14:02', 'sorcery'),
 (9832, 'Liliana of the Veil', 1, 8333, 'sb', '2025-04-17 14:14:02', 'planeswalker'),
 (9833, 'Liliana, the Last Hope', 1, 8333, 'sb', '2025-04-17 14:14:02', 'planeswalker'),
-(9834, 'Marsh Casualties', 1, 8333, 'sb', '2025-04-17 14:14:02', 'sorcery'),
-(9835, 'Polluted Delta', 4, 8333, 'md', '2025-04-17 14:14:02', 'land'),
-(9836, 'Ponder', 4, 8333, 'md', '2025-04-17 14:14:02', 'sorcery');
+(9834, 'Marsh Casualties', 1, 8333, 'sb', '2025-04-17 14:14:02', 'sorcery');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(9835, 'Polluted Delta', 4, 8333, 'md', '2025-04-17 14:14:02', 'land'),
+(9836, 'Ponder', 4, 8333, 'md', '2025-04-17 14:14:02', 'sorcery'),
 (9837, 'Preordain', 1, 8333, 'md', '2025-04-17 14:14:02', 'sorcery'),
 (9838, 'Ratchet Bomb', 2, 8333, 'sb', '2025-04-17 14:14:02', 'artifact'),
 (9839, 'Scalding Tarn', 4, 8333, 'md', '2025-04-17 14:14:02', 'land'),
@@ -10541,10 +10541,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (10513, 'Jace, the Mind Sculptor', 3, 8356, 'md', '2025-04-17 14:32:20', 'planeswalker'),
 (10514, 'Kolaghan\'s Command', 3, 8356, 'md', '2025-04-17 14:32:20', 'instant'),
 (10515, 'Lightning Bolt', 2, 8356, 'md', '2025-04-17 14:32:20', 'instant'),
-(10516, 'Liliana, the Last Hope', 1, 8356, 'md', '2025-04-17 14:32:20', 'planeswalker'),
-(10517, 'Marsh Casualties', 1, 8356, 'sb', '2025-04-17 14:32:20', 'sorcery'),
-(10518, 'Polluted Delta', 4, 8356, 'md', '2025-04-17 14:32:20', 'land');
+(10516, 'Liliana, the Last Hope', 1, 8356, 'md', '2025-04-17 14:32:20', 'planeswalker');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(10517, 'Marsh Casualties', 1, 8356, 'sb', '2025-04-17 14:32:20', 'sorcery'),
+(10518, 'Polluted Delta', 4, 8356, 'md', '2025-04-17 14:32:20', 'land'),
 (10519, 'Ponder', 4, 8356, 'md', '2025-04-17 14:32:20', 'sorcery'),
 (10520, 'Pyroblast', 2, 8356, 'sb', '2025-04-17 14:32:20', 'instant'),
 (10521, 'Red Elemental Blast', 1, 8356, 'sb', '2025-04-17 14:32:20', 'instant'),
@@ -11220,10 +11220,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (11191, 'Goblin Chainwhirler', 1, 8378, 'sb', '2025-04-17 14:50:44', 'creature'),
 (11192, 'Goblin Cratermaker', 2, 8378, 'md', '2025-04-17 14:50:44', 'creature'),
 (11193, 'Hazoret the Fervent', 1, 8378, 'md', '2025-04-17 14:50:44', 'creature'),
-(11194, 'Jaya Ballard, Task Mage', 2, 8378, 'sb', '2025-04-17 14:50:44', 'creature'),
-(11195, 'Kozilek\'s Return', 1, 8378, 'sb', '2025-04-17 14:50:44', 'instant'),
-(11196, 'Legion Warboss', 4, 8378, 'md', '2025-04-17 14:50:44', 'creature');
+(11194, 'Jaya Ballard, Task Mage', 2, 8378, 'sb', '2025-04-17 14:50:44', 'creature');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(11195, 'Kozilek\'s Return', 1, 8378, 'sb', '2025-04-17 14:50:44', 'instant'),
+(11196, 'Legion Warboss', 4, 8378, 'md', '2025-04-17 14:50:44', 'creature'),
 (11197, 'Magus of the Moon', 3, 8378, 'md', '2025-04-17 14:50:44', 'creature'),
 (11198, 'Mountain', 11, 8378, 'md', '2025-04-17 14:50:44', 'land'),
 (11199, 'Pia and Kiran Nalaar', 1, 8378, 'md', '2025-04-17 14:50:44', 'creature'),
@@ -11895,10 +11895,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (11865, 'Engineered Explosives', 1, 8400, 'sb', '2025-04-17 15:09:35', 'artifact'),
 (11866, 'Flooded Strand', 4, 8400, 'md', '2025-04-17 15:09:35', 'land'),
 (11867, 'Flusterstorm', 2, 8400, 'sb', '2025-04-17 15:09:35', 'instant'),
-(11868, 'Force of Will', 4, 8400, 'md', '2025-04-17 15:09:35', 'instant'),
-(11869, 'Gideon, Ally of Zendikar', 1, 8400, 'sb', '2025-04-17 15:09:35', 'planeswalker'),
-(11870, 'Island', 5, 8400, 'md', '2025-04-17 15:09:35', 'land');
+(11868, 'Force of Will', 4, 8400, 'md', '2025-04-17 15:09:35', 'instant');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(11869, 'Gideon, Ally of Zendikar', 1, 8400, 'sb', '2025-04-17 15:09:35', 'planeswalker'),
+(11870, 'Island', 5, 8400, 'md', '2025-04-17 15:09:35', 'land'),
 (11871, 'Jace, the Mind Sculptor', 2, 8400, 'md', '2025-04-17 15:09:35', 'planeswalker'),
 (11872, 'Karakas', 1, 8400, 'md', '2025-04-17 15:09:35', 'land'),
 (11873, 'Palace Jailer', 1, 8400, 'md', '2025-04-17 15:09:35', 'creature'),
@@ -12575,10 +12575,10 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (12544, 'Faerie Macabre', 4, 8422, 'sb', '2025-04-17 15:28:13', 'creature'),
 (12545, 'Glimmerpost', 4, 8422, 'md', '2025-04-17 15:28:13', 'land'),
 (12546, 'Grim Monolith', 4, 8422, 'md', '2025-04-17 15:28:13', 'artifact'),
-(12547, 'Karakas', 2, 8422, 'md', '2025-04-17 15:28:13', 'land'),
-(12548, 'Karn, Scion of Urza', 3, 8422, 'md', '2025-04-17 15:28:13', 'planeswalker'),
-(12549, 'Karn, the Great Creator', 4, 8422, 'md', '2025-04-17 15:28:13', 'planeswalker');
+(12547, 'Karakas', 2, 8422, 'md', '2025-04-17 15:28:13', 'land');
 INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(12548, 'Karn, Scion of Urza', 3, 8422, 'md', '2025-04-17 15:28:13', 'planeswalker'),
+(12549, 'Karn, the Great Creator', 4, 8422, 'md', '2025-04-17 15:28:13', 'planeswalker'),
 (12550, 'Liquimetal Coating', 1, 8422, 'sb', '2025-04-17 15:28:13', 'artifact'),
 (12551, 'Mycosynth Lattice', 1, 8422, 'sb', '2025-04-17 15:28:13', 'artifact'),
 (12552, 'Ratchet Bomb', 1, 8422, 'sb', '2025-04-17 15:28:13', 'artifact'),
@@ -13254,11 +13254,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (13256, 'Flickerwisp', 3, 8443, 'md', '2025-04-17 16:26:07', 'creature'),
 (13257, 'Force of Virtue', 2, 8443, 'sb', '2025-04-17 16:26:07', 'enchantment'),
 (13258, 'Karakas', 3, 8443, 'md', '2025-04-17 16:26:07', 'land'),
-(13259, 'Manriki-Gusari', 1, 8443, 'sb', '2025-04-17 16:26:07', 'artifact'),
+(13259, 'Manriki-Gusari', 1, 8443, 'sb', '2025-04-17 16:26:07', 'artifact');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (13260, 'Mirran Crusader', 1, 8443, 'md', '2025-04-17 16:26:07', 'creature'),
 (13261, 'Moat', 1, 8443, 'sb', '2025-04-17 16:26:07', 'enchantment'),
-(13262, 'Mother of Runes', 4, 8443, 'md', '2025-04-17 16:26:07', 'creature');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(13262, 'Mother of Runes', 4, 8443, 'md', '2025-04-17 16:26:07', 'creature'),
 (13263, 'Palace Jailer', 1, 8443, 'md', '2025-04-17 16:26:07', 'creature'),
 (13264, 'Path to Exile', 1, 8443, 'sb', '2025-04-17 16:26:07', 'instant'),
 (13265, 'Phyrexian Revoker', 1, 8443, 'md', '2025-04-17 16:26:07', 'creature'),
@@ -13931,11 +13931,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (13996, 'Thoughtseize', 4, 8463, 'md', '2025-04-17 17:16:36', 'sorcery'),
 (13997, 'Urborg, Tomb of Yawgmoth', 3, 8463, 'md', '2025-04-17 17:16:36', 'land'),
 (13998, 'Vampire Hexmage', 4, 8463, 'md', '2025-04-17 17:16:36', 'creature'),
-(13999, 'Verdant Catacombs', 4, 8463, 'md', '2025-04-17 17:16:36', 'land'),
+(13999, 'Verdant Catacombs', 4, 8463, 'md', '2025-04-17 17:16:36', 'land');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (14000, 'Wasteland', 4, 8463, 'md', '2025-04-17 17:16:36', 'land'),
 (14001, 'Abrupt Decay', 3, 8464, 'md', '2025-04-17 17:17:25', 'instant'),
-(14002, 'Abrupt Decay', 1, 8464, 'sb', '2025-04-17 17:17:25', 'instant');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(14002, 'Abrupt Decay', 1, 8464, 'sb', '2025-04-17 17:17:25', 'instant'),
 (14003, 'Blue Elemental Blast', 1, 8464, 'sb', '2025-04-17 17:17:25', 'instant'),
 (14004, 'Brainstorm', 4, 8464, 'md', '2025-04-17 17:17:25', 'instant'),
 (14005, 'Daze', 4, 8464, 'md', '2025-04-17 17:17:25', 'instant'),
@@ -14614,11 +14614,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (14678, 'Flusterstorm', 1, 8486, 'sb', '2025-04-17 17:35:24', 'instant'),
 (14679, 'Force of Negation', 2, 8486, 'md', '2025-04-17 17:35:24', 'instant'),
 (14680, 'Force of Will', 4, 8486, 'md', '2025-04-17 17:35:24', 'instant'),
-(14681, 'Hydroblast', 1, 8486, 'sb', '2025-04-17 17:35:24', 'instant'),
+(14681, 'Hydroblast', 1, 8486, 'sb', '2025-04-17 17:35:24', 'instant');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (14682, 'Jace, the Mind Sculptor', 2, 8486, 'md', '2025-04-17 17:35:24', 'planeswalker'),
 (14683, 'Magmatic Sinkhole', 2, 8486, 'md', '2025-04-17 17:35:24', 'instant'),
-(14684, 'Monastery Mentor', 4, 8486, 'md', '2025-04-17 17:35:24', 'creature');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(14684, 'Monastery Mentor', 4, 8486, 'md', '2025-04-17 17:35:24', 'creature'),
 (14685, 'Narset, Parter of Veils', 2, 8486, 'md', '2025-04-17 17:35:24', 'planeswalker'),
 (14686, 'Ponder', 4, 8486, 'md', '2025-04-17 17:35:24', 'sorcery'),
 (14687, 'Prismatic Vista', 1, 8486, 'md', '2025-04-17 17:35:24', 'land'),
@@ -15290,11 +15290,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (15389, 'Chandra, Awakened Inferno', 2, 8507, 'sb', '2025-04-17 22:18:34', 'planeswalker'),
 (15390, 'Dark Petition', 2, 8507, 'md', '2025-04-17 22:18:34', 'sorcery'),
 (15391, 'Dark Ritual', 4, 8507, 'md', '2025-04-17 22:18:34', 'instant'),
-(15392, 'Dread of Night', 2, 8507, 'sb', '2025-04-17 22:18:34', 'enchantment'),
+(15392, 'Dread of Night', 2, 8507, 'sb', '2025-04-17 22:18:34', 'enchantment');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (15393, 'Duress', 4, 8507, 'md', '2025-04-17 22:18:34', 'sorcery'),
 (15394, 'Echoing Truth', 2, 8507, 'sb', '2025-04-17 22:18:34', 'instant'),
-(15395, 'Empty the Warrens', 1, 8507, 'sb', '2025-04-17 22:18:34', 'sorcery');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(15395, 'Empty the Warrens', 1, 8507, 'sb', '2025-04-17 22:18:34', 'sorcery'),
 (15396, 'Infernal Tutor', 4, 8507, 'md', '2025-04-17 22:18:34', 'sorcery'),
 (15397, 'Lion\'s Eye Diamond', 4, 8507, 'md', '2025-04-17 22:18:34', 'artifact'),
 (15398, 'Lotus Petal', 4, 8507, 'md', '2025-04-17 22:18:34', 'artifact'),
@@ -15963,11 +15963,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (16093, 'Glimmerpost', 4, 8527, 'md', '2025-04-17 22:47:04', 'land'),
 (16094, 'Golos, Tireless Pilgrim', 2, 8527, 'md', '2025-04-17 22:47:04', 'creature'),
 (16095, 'Grim Monolith', 4, 8527, 'md', '2025-04-17 22:47:04', 'artifact'),
-(16096, 'Karakas', 1, 8527, 'md', '2025-04-17 22:47:04', 'land'),
+(16096, 'Karakas', 1, 8527, 'md', '2025-04-17 22:47:04', 'land');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (16097, 'Karn, the Great Creator', 3, 8527, 'md', '2025-04-17 22:47:04', 'planeswalker'),
 (16098, 'Leyline of the Void', 4, 8527, 'sb', '2025-04-17 22:47:04', 'enchantment'),
-(16099, 'Liquimetal Coating', 1, 8527, 'sb', '2025-04-17 22:47:04', 'artifact');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(16099, 'Liquimetal Coating', 1, 8527, 'sb', '2025-04-17 22:47:04', 'artifact'),
 (16100, 'Manifold Key', 2, 8527, 'md', '2025-04-17 22:47:04', 'artifact'),
 (16101, 'Mycosynth Lattice', 1, 8527, 'sb', '2025-04-17 22:47:04', 'artifact'),
 (16102, 'Sorcerous Spyglass', 2, 8527, 'md', '2025-04-17 22:47:04', 'artifact'),
@@ -16636,12 +16636,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (16765, 'Force of Will', 4, 8549, 'md', '2025-04-17 23:04:04', 'instant'),
 (16766, 'Grafdigger\'s Cage', 1, 8549, 'sb', '2025-04-17 23:04:04', 'artifact'),
 (16767, 'Gut Shot', 1, 8549, 'md', '2025-04-17 23:04:04', 'instant'),
-(16768, 'Island', 2, 8549, 'md', '2025-04-17 23:04:04', 'land'),
+(16768, 'Island', 2, 8549, 'md', '2025-04-17 23:04:04', 'land');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (16769, 'Karakas', 1, 8549, 'sb', '2025-04-17 23:04:04', 'land'),
 (16770, 'Lightning Bolt', 4, 8549, 'md', '2025-04-17 23:04:04', 'instant'),
 (16771, 'Meltdown', 1, 8549, 'sb', '2025-04-17 23:04:04', 'sorcery'),
-(16772, 'Mishra\'s Bauble', 1, 8549, 'md', '2025-04-17 23:04:04', 'artifact');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(16772, 'Mishra\'s Bauble', 1, 8549, 'md', '2025-04-17 23:04:04', 'artifact'),
 (16773, 'Misty Rainforest', 2, 8549, 'md', '2025-04-17 23:04:04', 'land'),
 (16774, 'Mountain', 1, 8549, 'md', '2025-04-17 23:04:04', 'land'),
 (16775, 'Murktide Regent', 4, 8549, 'md', '2025-04-17 23:04:04', 'creature'),
@@ -17316,12 +17316,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (17444, 'Flusterstorm', 1, 8569, 'md', '2025-04-17 23:21:28', 'instant'),
 (17445, 'Force of Vigor', 1, 8569, 'sb', '2025-04-17 23:21:28', 'instant'),
 (17446, 'Force of Will', 4, 8569, 'md', '2025-04-17 23:21:28', 'instant'),
-(17447, 'Grafdigger\'s Cage', 1, 8569, 'sb', '2025-04-17 23:21:28', 'artifact'),
+(17447, 'Grafdigger\'s Cage', 1, 8569, 'sb', '2025-04-17 23:21:28', 'artifact');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (17448, 'Griselbrand', 1, 8569, 'md', '2025-04-17 23:21:28', 'creature'),
 (17449, 'Hydroblast', 1, 8569, 'sb', '2025-04-17 23:21:28', 'instant'),
 (17450, 'Ice-Fang Coatl', 4, 8569, 'md', '2025-04-17 23:21:28', 'creature'),
-(17451, 'Intuition', 1, 8569, 'md', '2025-04-17 23:21:28', 'instant');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(17451, 'Intuition', 1, 8569, 'md', '2025-04-17 23:21:28', 'instant'),
 (17452, 'Misty Rainforest', 4, 8569, 'md', '2025-04-17 23:21:28', 'land'),
 (17453, 'Mystic Sanctuary', 1, 8569, 'md', '2025-04-17 23:21:28', 'land'),
 (17454, 'Omniscience', 4, 8569, 'md', '2025-04-17 23:21:28', 'enchantment'),
@@ -17992,12 +17992,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (18119, 'Scalding Tarn', 4, 8590, 'md', '2025-04-17 23:38:08', 'land'),
 (18120, 'Sudden Edict', 3, 8590, 'md', '2025-04-17 23:38:08', 'instant'),
 (18121, 'Surgical Extraction', 3, 8590, 'sb', '2025-04-17 23:38:08', 'instant'),
-(18122, 'Swamp', 1, 8590, 'md', '2025-04-17 23:38:08', 'land'),
+(18122, 'Swamp', 1, 8590, 'md', '2025-04-17 23:38:08', 'land');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (18123, 'Thoughtseize', 2, 8590, 'sb', '2025-04-17 23:38:08', 'sorcery'),
 (18124, 'Underground Sea', 3, 8590, 'md', '2025-04-17 23:38:08', 'land'),
 (18125, 'Volcanic Island', 3, 8590, 'md', '2025-04-17 23:38:08', 'land'),
-(18126, 'Brainstorm', 4, 8591, 'md', '2025-04-17 23:38:59', 'instant');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(18126, 'Brainstorm', 4, 8591, 'md', '2025-04-17 23:38:59', 'instant'),
 (18127, 'Brazen Borrower', 1, 8591, 'md', '2025-04-17 23:38:59', 'creature'),
 (18128, 'Chandra, Torch of Defiance', 1, 8591, 'sb', '2025-04-17 23:38:59', 'planeswalker'),
 (18129, 'Daze', 4, 8591, 'md', '2025-04-17 23:38:59', 'instant'),
@@ -18666,12 +18666,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (18792, 'Grafdigger\'s Cage', 1, 8611, 'sb', '2025-04-17 23:55:13', 'artifact'),
 (18793, 'Hullbreacher', 1, 8611, 'sb', '2025-04-17 23:55:13', 'creature'),
 (18794, 'Hurkyl\'s Recall', 1, 8611, 'sb', '2025-04-17 23:55:13', 'instant'),
-(18795, 'Island', 2, 8611, 'md', '2025-04-17 23:55:13', 'land'),
+(18795, 'Island', 2, 8611, 'md', '2025-04-17 23:55:13', 'land');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (18796, 'Kappa Cannoneer', 3, 8611, 'md', '2025-04-17 23:55:13', 'creature'),
 (18797, 'Lotus Petal', 4, 8611, 'md', '2025-04-17 23:55:13', 'artifact'),
 (18798, 'Mishra\'s Bauble', 4, 8611, 'md', '2025-04-17 23:55:13', 'artifact'),
-(18799, 'Mox Opal', 4, 8611, 'md', '2025-04-17 23:55:13', 'artifact');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(18799, 'Mox Opal', 4, 8611, 'md', '2025-04-17 23:55:13', 'artifact'),
 (18800, 'Otawara, Soaring City', 2, 8611, 'md', '2025-04-17 23:55:13', 'land'),
 (18801, 'Pithing Needle', 1, 8611, 'sb', '2025-04-17 23:55:13', 'artifact'),
 (18802, 'Retrofitter Foundry', 1, 8611, 'md', '2025-04-17 23:55:13', 'artifact'),
@@ -19343,12 +19343,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (19468, 'Chain of Vapor', 1, 8633, 'sb', '2025-04-18 00:14:15', 'instant'),
 (19469, 'Dark Ritual', 4, 8633, 'md', '2025-04-18 00:14:15', 'instant'),
 (19470, 'Dread of Night', 1, 8633, 'sb', '2025-04-18 00:14:15', 'enchantment'),
-(19471, 'Duress', 2, 8633, 'md', '2025-04-18 00:14:15', 'sorcery'),
+(19471, 'Duress', 2, 8633, 'md', '2025-04-18 00:14:15', 'sorcery');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (19472, 'Echoing Truth', 2, 8633, 'sb', '2025-04-18 00:14:15', 'instant'),
 (19473, 'Empty the Warrens', 1, 8633, 'md', '2025-04-18 00:14:15', 'sorcery'),
 (19474, 'Flusterstorm', 1, 8633, 'sb', '2025-04-18 00:14:15', 'instant'),
-(19475, 'Hurkyl\'s Recall', 2, 8633, 'sb', '2025-04-18 00:14:15', 'instant');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(19475, 'Hurkyl\'s Recall', 2, 8633, 'sb', '2025-04-18 00:14:15', 'instant'),
 (19476, 'Infernal Tutor', 4, 8633, 'md', '2025-04-18 00:14:15', 'sorcery'),
 (19477, 'Island', 1, 8633, 'md', '2025-04-18 00:14:15', 'land'),
 (19478, 'Lion\'s Eye Diamond', 4, 8633, 'md', '2025-04-18 00:14:15', 'artifact'),
@@ -20023,11 +20023,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (20147, 'Spell Pierce', 1, 8654, 'md', '2025-04-18 00:30:35', 'instant'),
 (20148, 'Stony Silence', 1, 8654, 'sb', '2025-04-18 00:30:35', 'enchantment'),
 (20149, 'Supreme Verdict', 2, 8654, 'md', '2025-04-18 00:30:35', 'sorcery'),
-(20150, 'Surgical Extraction', 2, 8654, 'sb', '2025-04-18 00:30:35', 'instant'),
+(20150, 'Surgical Extraction', 2, 8654, 'sb', '2025-04-18 00:30:35', 'instant');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (20151, 'Swords to Plowshares', 4, 8654, 'md', '2025-04-18 00:30:35', 'instant'),
 (20152, 'Teferi, Time Raveler', 2, 8654, 'md', '2025-04-18 00:30:35', 'planeswalker'),
-(20153, 'The Wandering Emperor', 1, 8654, 'md', '2025-04-18 00:30:35', 'planeswalker');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(20153, 'The Wandering Emperor', 1, 8654, 'md', '2025-04-18 00:30:35', 'planeswalker'),
 (20154, 'Timeless Dragon', 1, 8654, 'md', '2025-04-18 00:30:35', 'creature'),
 (20155, 'Tundra', 2, 8654, 'md', '2025-04-18 00:30:35', 'land'),
 (20156, 'Volcanic Island', 1, 8654, 'md', '2025-04-18 00:30:35', 'land'),
@@ -20700,11 +20700,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (20823, 'Mystic Sanctuary', 3, 8675, 'md', '2025-04-18 00:47:05', 'land'),
 (20824, 'Ponder', 4, 8675, 'md', '2025-04-18 00:47:05', 'sorcery'),
 (20825, 'Pyroblast', 1, 8675, 'md', '2025-04-18 00:47:05', 'instant'),
-(20826, 'Pyroblast', 2, 8675, 'sb', '2025-04-18 00:47:05', 'instant'),
+(20826, 'Pyroblast', 2, 8675, 'sb', '2025-04-18 00:47:05', 'instant');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (20827, 'Red Elemental Blast', 1, 8675, 'sb', '2025-04-18 00:47:05', 'instant'),
 (20828, 'Scalding Tarn', 4, 8675, 'md', '2025-04-18 00:47:05', 'land'),
-(20829, 'Snow-Covered Island', 1, 8675, 'md', '2025-04-18 00:47:05', 'land');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(20829, 'Snow-Covered Island', 1, 8675, 'md', '2025-04-18 00:47:05', 'land'),
 (20830, 'Steam Vents', 1, 8675, 'md', '2025-04-18 00:47:05', 'land'),
 (20831, 'Submerge', 1, 8675, 'sb', '2025-04-18 00:47:05', 'instant'),
 (20832, 'Surgical Extraction', 2, 8675, 'sb', '2025-04-18 00:47:05', 'instant'),
@@ -21377,11 +21377,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (21499, 'Cabal Therapy', 2, 8697, 'md', '2025-04-18 01:04:12', 'sorcery'),
 (21500, 'Cephalid Illusionist', 4, 8697, 'md', '2025-04-18 01:04:12', 'creature'),
 (21501, 'Dread Return', 1, 8697, 'md', '2025-04-18 01:04:12', 'sorcery'),
-(21502, 'Flooded Strand', 4, 8697, 'md', '2025-04-18 01:04:12', 'land'),
+(21502, 'Flooded Strand', 4, 8697, 'md', '2025-04-18 01:04:12', 'land');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (21503, 'Flusterstorm', 2, 8697, 'sb', '2025-04-18 01:04:12', 'instant'),
 (21504, 'Force of Negation', 2, 8697, 'sb', '2025-04-18 01:04:12', 'instant'),
-(21505, 'Force of Will', 4, 8697, 'md', '2025-04-18 01:04:12', 'instant');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(21505, 'Force of Will', 4, 8697, 'md', '2025-04-18 01:04:12', 'instant'),
 (21506, 'Hydroblast', 2, 8697, 'sb', '2025-04-18 01:04:12', 'instant'),
 (21507, 'Island', 1, 8697, 'md', '2025-04-18 01:04:12', 'land'),
 (21508, 'Marsh Flats', 1, 8697, 'md', '2025-04-18 01:04:12', 'land'),
@@ -22057,11 +22057,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (22178, 'Opposition Agent', 2, 8717, 'sb', '2025-04-18 01:20:44', 'creature'),
 (22179, 'Phyrexian Dragon Engine', 1, 8717, 'md', '2025-04-18 01:20:44', 'creature'),
 (22180, 'Pithing Needle', 1, 8717, 'sb', '2025-04-18 01:20:44', 'artifact'),
-(22181, 'Plague Engineer', 4, 8717, 'md', '2025-04-18 01:20:44', 'creature'),
+(22181, 'Plague Engineer', 4, 8717, 'md', '2025-04-18 01:20:44', 'creature');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (22182, 'Pyroblast', 3, 8717, 'md', '2025-04-18 01:20:44', 'instant'),
 (22183, 'Red Elemental Blast', 3, 8717, 'md', '2025-04-18 01:20:44', 'instant'),
-(22184, 'Scalding Tarn', 1, 8717, 'md', '2025-04-18 01:20:44', 'land');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(22184, 'Scalding Tarn', 1, 8717, 'md', '2025-04-18 01:20:44', 'land'),
 (22185, 'Sheoldred\'s Edict', 2, 8717, 'sb', '2025-04-18 01:20:44', 'instant'),
 (22186, 'Simian Spirit Guide', 2, 8717, 'md', '2025-04-18 01:20:44', 'creature'),
 (22187, 'Surgical Extraction', 3, 8717, 'sb', '2025-04-18 01:20:44', 'instant'),
@@ -22734,11 +22734,11 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (22854, 'Sevinne\'s Reclamation', 1, 8738, 'sb', '2025-04-18 01:37:20', 'sorcery'),
 (22855, 'Snapcaster Mage', 2, 8738, 'md', '2025-04-18 01:37:20', 'creature'),
 (22856, 'Spell Pierce', 1, 8738, 'md', '2025-04-18 01:37:20', 'instant'),
-(22857, 'Staff of the Storyteller', 4, 8738, 'md', '2025-04-18 01:37:20', 'artifact'),
+(22857, 'Staff of the Storyteller', 4, 8738, 'md', '2025-04-18 01:37:20', 'artifact');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (22858, 'Stony Silence', 2, 8738, 'sb', '2025-04-18 01:37:20', 'enchantment'),
 (22859, 'Surgical Extraction', 2, 8738, 'sb', '2025-04-18 01:37:20', 'instant'),
-(22860, 'Swords to Plowshares', 4, 8738, 'md', '2025-04-18 01:37:20', 'instant');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(22860, 'Swords to Plowshares', 4, 8738, 'md', '2025-04-18 01:37:20', 'instant'),
 (22861, 'Teferi, Time Raveler', 2, 8738, 'md', '2025-04-18 01:37:20', 'planeswalker'),
 (22862, 'Terminus', 1, 8738, 'md', '2025-04-18 01:37:20', 'sorcery'),
 (22863, 'Terminus', 1, 8738, 'sb', '2025-04-18 01:37:20', 'sorcery'),
@@ -23414,12 +23414,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (23533, 'Hydroblast', 1, 8760, 'sb', '2025-04-18 01:54:02', 'instant'),
 (23534, 'Lightning Bolt', 4, 8760, 'md', '2025-04-18 01:54:02', 'instant'),
 (23535, 'Meltdown', 2, 8760, 'sb', '2025-04-18 01:54:02', 'sorcery'),
-(23536, 'Mishra\'s Bauble', 3, 8760, 'md', '2025-04-18 01:54:02', 'artifact'),
+(23536, 'Mishra\'s Bauble', 3, 8760, 'md', '2025-04-18 01:54:02', 'artifact');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (23537, 'Misty Rainforest', 2, 8760, 'md', '2025-04-18 01:54:02', 'land'),
 (23538, 'Murktide Regent', 3, 8760, 'md', '2025-04-18 01:54:02', 'creature'),
 (23539, 'Mystic Sanctuary', 1, 8760, 'md', '2025-04-18 01:54:02', 'land'),
-(23540, 'Null Rod', 1, 8760, 'sb', '2025-04-18 01:54:02', 'artifact');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(23540, 'Null Rod', 1, 8760, 'sb', '2025-04-18 01:54:02', 'artifact'),
 (23541, 'Orcish Bowmasters', 4, 8760, 'md', '2025-04-18 01:54:02', 'creature'),
 (23542, 'Ponder', 4, 8760, 'md', '2025-04-18 01:54:02', 'sorcery'),
 (23543, 'Price of Progress', 1, 8760, 'sb', '2025-04-18 01:54:02', 'instant'),
@@ -24092,12 +24092,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (24210, 'Tundra', 2, 8781, 'md', '2025-04-18 02:11:29', 'land'),
 (24211, 'Volcanic Island', 2, 8781, 'md', '2025-04-18 02:11:29', 'land'),
 (24212, 'Abrade', 1, 8782, 'sb', '2025-04-18 02:12:20', 'instant'),
-(24213, 'Ancient Tomb', 4, 8782, 'md', '2025-04-18 02:12:20', 'land'),
+(24213, 'Ancient Tomb', 4, 8782, 'md', '2025-04-18 02:12:20', 'land');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (24214, 'Arid Mesa', 1, 8782, 'md', '2025-04-18 02:12:20', 'land'),
 (24215, 'Badlands', 2, 8782, 'md', '2025-04-18 02:12:20', 'land'),
 (24216, 'Blood Moon', 1, 8782, 'sb', '2025-04-18 02:12:20', 'enchantment'),
-(24217, 'Bloodstained Mire', 2, 8782, 'md', '2025-04-18 02:12:20', 'land');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(24217, 'Bloodstained Mire', 2, 8782, 'md', '2025-04-18 02:12:20', 'land'),
 (24218, 'Chaos Defiler', 1, 8782, 'md', '2025-04-18 02:12:20', 'creature'),
 (24219, 'City of Traitors', 1, 8782, 'md', '2025-04-18 02:12:20', 'land'),
 (24220, 'Ensnaring Bridge', 1, 8782, 'sb', '2025-04-18 02:12:20', 'artifact'),
@@ -24772,12 +24772,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (24889, 'Bojuka Bog', 1, 8803, 'md', '2025-04-18 02:28:54', 'land'),
 (24890, 'Boseiju, Who Endures', 1, 8803, 'md', '2025-04-18 02:28:54', 'land'),
 (24891, 'Collector Ouphe', 1, 8803, 'md', '2025-04-18 02:28:54', 'creature'),
-(24892, 'Crop Rotation', 3, 8803, 'md', '2025-04-18 02:28:54', 'instant'),
+(24892, 'Crop Rotation', 3, 8803, 'md', '2025-04-18 02:28:54', 'instant');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (24893, 'Dark Depths', 2, 8803, 'md', '2025-04-18 02:28:54', 'land'),
 (24894, 'Deafening Silence', 2, 8803, 'sb', '2025-04-18 02:28:54', 'enchantment'),
 (24895, 'Dryad Arbor', 1, 8803, 'md', '2025-04-18 02:28:54', 'creature'),
-(24896, 'Elvish Reclaimer', 4, 8803, 'md', '2025-04-18 02:28:54', 'creature');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(24896, 'Elvish Reclaimer', 4, 8803, 'md', '2025-04-18 02:28:54', 'creature'),
 (24897, 'Endurance', 3, 8803, 'md', '2025-04-18 02:28:54', 'creature'),
 (24898, 'Flagstones of Trokair', 2, 8803, 'md', '2025-04-18 02:28:54', 'land'),
 (24899, 'Force of Vigor', 2, 8803, 'sb', '2025-04-18 02:28:54', 'instant'),
@@ -25448,12 +25448,12 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (25564, 'Thoughtseize', 4, 8824, 'md', '2025-04-18 18:48:34', 'sorcery'),
 (25565, 'Necrodominance', 3, 8824, 'md', '2025-04-18 18:48:34', 'enchantment'),
 (25566, 'Vexing Bauble', 3, 8824, 'md', '2025-04-18 18:48:34', 'artifact'),
-(25567, 'Damping Matrix', 2, 8824, 'sb', '2025-04-18 18:48:34', 'artifact'),
+(25567, 'Damping Matrix', 2, 8824, 'sb', '2025-04-18 18:48:34', 'artifact');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (25568, 'Damping Sphere', 2, 8824, 'sb', '2025-04-18 18:48:34', 'artifact'),
 (25569, 'Hymn to Tourach', 2, 8824, 'sb', '2025-04-18 18:48:34', 'sorcery'),
 (25570, 'Leyline of the Void', 3, 8824, 'sb', '2025-04-18 18:48:34', 'enchantment'),
-(25571, 'Opposition Agent', 2, 8824, 'sb', '2025-04-18 18:48:34', 'creature');
-INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
+(25571, 'Opposition Agent', 2, 8824, 'sb', '2025-04-18 18:48:34', 'creature'),
 (25572, 'Ratchet Bomb', 1, 8824, 'sb', '2025-04-18 18:48:34', 'artifact'),
 (25573, 'The Filigree Sylex', 1, 8824, 'sb', '2025-04-18 18:48:34', 'artifact'),
 (25574, 'Tourach, Dread Cantor', 2, 8824, 'sb', '2025-04-18 18:48:34', 'creature'),
@@ -26126,7 +26126,8 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (26241, 'Fiery Confluence', 3, 8846, 'sb', '2025-04-18 19:40:03', 'sorcery'),
 (26242, 'Leyline of the Void', 4, 8846, 'sb', '2025-04-18 19:40:03', 'enchantment'),
 (26243, 'Null Rod', 1, 8846, 'sb', '2025-04-18 19:40:03', 'artifact'),
-(26244, 'Pyrokinesis', 2, 8846, 'sb', '2025-04-18 19:40:03', 'instant'),
+(26244, 'Pyrokinesis', 2, 8846, 'sb', '2025-04-18 19:40:03', 'instant');
+INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardType`) VALUES
 (26245, 'Unlicensed Hearse', 1, 8846, 'sb', '2025-04-18 19:40:03', 'artifact');
 
 -- --------------------------------------------------------
