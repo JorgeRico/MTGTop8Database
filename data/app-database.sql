@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 12-08-2025 a las 12:39:00
+-- Tiempo de generación: 08-09-2025 a las 00:40:35
 -- Versión del servidor: 10.5.27-MariaDB-log
 -- Versión de PHP: 8.4.7
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `app-database`
+-- Base de datos: `jorgericogarriga_stats`
 --
 
 -- --------------------------------------------------------
@@ -28400,7 +28400,263 @@ INSERT INTO `cards` (`id`, `name`, `num`, `idDeck`, `board`, `datetime`, `cardTy
 (28511, 'Null Rod', 2, 8918, 'sb', '2025-08-10 08:53:18', 'artifact'),
 (28512, 'Sheoldred\'s Edict', 1, 8918, 'sb', '2025-08-10 08:53:18', 'instant'),
 (28513, 'Surgical Extraction', 2, 8918, 'sb', '2025-08-10 08:53:18', 'instant'),
-(28514, 'Toxic Deluge', 1, 8918, 'sb', '2025-08-10 08:53:18', 'sorcery');
+(28514, 'Toxic Deluge', 1, 8918, 'sb', '2025-08-10 08:53:18', 'sorcery'),
+(28515, 'Boseiju, Who Endures', 1, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28516, 'Dryad Arbor', 2, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28517, 'Forest', 2, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28518, 'Gaea\'s Cradle', 4, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28519, 'Misty Rainforest', 3, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28520, 'Savannah', 2, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28521, 'Tropical Island', 2, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28522, 'Windswept Heath', 2, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28523, 'Wooded Foothills', 2, 8919, 'md', '2025-09-08 00:33:18', 'land'),
+(28524, 'Allosaurus Shepherd', 2, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28525, 'Birds of Paradise', 4, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28526, 'Collector Ouphe', 1, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28527, 'Craterhoof Behemoth', 1, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28528, 'Endurance', 2, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28529, 'Frenzied Baloth', 1, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28530, 'Nadu, Winged Wisdom', 4, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28531, 'Noble Hierarch', 4, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28532, 'Nomads en-Kor', 4, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28533, 'Quirion Ranger', 1, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28534, 'Scythecat Cub', 2, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28535, 'Springheart Nantuko', 1, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28536, 'Sylvan Safekeeper', 1, 8919, 'md', '2025-09-08 00:33:18', 'creature'),
+(28537, 'Chord of Calling', 4, 8919, 'md', '2025-09-08 00:33:18', 'instant'),
+(28538, 'Green Sun\'s Zenith', 4, 8919, 'md', '2025-09-08 00:33:18', 'sorcery'),
+(28539, 'Once Upon a Time', 4, 8919, 'md', '2025-09-08 00:33:18', 'instant'),
+(28540, 'Consign to Memory', 2, 8919, 'sb', '2025-09-08 00:33:18', 'instant'),
+(28541, 'Deafening Silence', 3, 8919, 'sb', '2025-09-08 00:33:18', 'enchantment'),
+(28542, 'Endurance', 2, 8919, 'sb', '2025-09-08 00:33:18', 'creature'),
+(28543, 'Faerie Macabre', 2, 8919, 'sb', '2025-09-08 00:33:18', 'creature'),
+(28544, 'Force of Vigor', 2, 8919, 'sb', '2025-09-08 00:33:18', 'instant'),
+(28545, 'Prismatic Ending', 2, 8919, 'sb', '2025-09-08 00:33:18', 'sorcery'),
+(28546, 'Swords to Plowshares', 2, 8919, 'sb', '2025-09-08 00:33:18', 'instant'),
+(28547, 'Ancient Tomb', 4, 8920, 'md', '2025-09-08 00:33:42', 'land'),
+(28548, 'Otawara, Soaring City', 1, 8920, 'md', '2025-09-08 00:33:42', 'land'),
+(28549, 'Seat of the Synod', 4, 8920, 'md', '2025-09-08 00:33:42', 'land'),
+(28550, 'Urza\'s Saga', 4, 8920, 'md', '2025-09-08 00:33:42', 'land'),
+(28551, 'Emry, Lurker of the Loch', 4, 8920, 'md', '2025-09-08 00:33:42', 'creature'),
+(28552, 'Memory Guardian', 4, 8920, 'md', '2025-09-08 00:33:42', 'creature'),
+(28553, 'Patchwork Automaton', 4, 8920, 'md', '2025-09-08 00:33:42', 'creature'),
+(28554, 'Pinnacle Emissary', 4, 8920, 'md', '2025-09-08 00:33:42', 'creature'),
+(28555, 'Force of Will', 4, 8920, 'md', '2025-09-08 00:33:42', 'instant'),
+(28556, 'Metallic Rebuke', 2, 8920, 'md', '2025-09-08 00:33:42', 'instant'),
+(28557, 'Sink into Stupor', 3, 8920, 'md', '2025-09-08 00:33:42', 'land'),
+(28558, 'Thoughtcast', 4, 8920, 'md', '2025-09-08 00:33:42', 'sorcery'),
+(28559, 'Lavaspur Boots', 1, 8920, 'md', '2025-09-08 00:33:42', 'artifact'),
+(28560, 'Lotus Petal', 4, 8920, 'md', '2025-09-08 00:33:42', 'artifact'),
+(28561, 'Mishra\'s Bauble', 4, 8920, 'md', '2025-09-08 00:33:42', 'artifact'),
+(28562, 'Mox Opal', 4, 8920, 'md', '2025-09-08 00:33:42', 'artifact'),
+(28563, 'Pithing Needle', 1, 8920, 'md', '2025-09-08 00:33:42', 'artifact'),
+(28564, 'Soul-Guide Lantern', 1, 8920, 'md', '2025-09-08 00:33:42', 'artifact'),
+(28565, 'Urza\'s Bauble', 3, 8920, 'md', '2025-09-08 00:33:42', 'artifact'),
+(28566, 'Blue Elemental Blast', 1, 8920, 'sb', '2025-09-08 00:33:42', 'instant'),
+(28567, 'Consign to Memory', 1, 8920, 'sb', '2025-09-08 00:33:42', 'instant'),
+(28568, 'Dismember', 2, 8920, 'sb', '2025-09-08 00:33:42', 'instant'),
+(28569, 'Faerie Macabre', 2, 8920, 'sb', '2025-09-08 00:33:42', 'creature'),
+(28570, 'Force of Negation', 3, 8920, 'sb', '2025-09-08 00:33:42', 'instant'),
+(28571, 'Harbinger of the Seas', 2, 8920, 'sb', '2025-09-08 00:33:42', 'creature'),
+(28572, 'Haywire Mite', 1, 8920, 'sb', '2025-09-08 00:33:42', 'creature'),
+(28573, 'Hydroblast', 1, 8920, 'sb', '2025-09-08 00:33:42', 'instant'),
+(28574, 'Shadowspear', 1, 8920, 'sb', '2025-09-08 00:33:42', 'artifact'),
+(28575, 'Tormod\'s Crypt', 1, 8920, 'sb', '2025-09-08 00:33:42', 'artifact'),
+(28576, 'Cavern of Souls', 2, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28577, 'Flooded Strand', 4, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28578, 'Hedge Maze', 1, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28579, 'Island', 1, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28580, 'Meticulous Archive', 1, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28581, 'Misty Rainforest', 3, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28582, 'Plains', 1, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28583, 'Savannah', 1, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28584, 'Tropical Island', 1, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28585, 'Tundra', 2, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28586, 'Urza\'s Saga', 3, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28587, 'Windswept Heath', 1, 8921, 'md', '2025-09-08 00:34:01', 'land'),
+(28588, 'Cephalid Illusionist', 4, 8921, 'md', '2025-09-08 00:34:01', 'creature'),
+(28589, 'Nadu, Winged Wisdom', 4, 8921, 'md', '2025-09-08 00:34:01', 'creature'),
+(28590, 'Narcomoeba', 2, 8921, 'md', '2025-09-08 00:34:01', 'creature'),
+(28591, 'Nomads en-Kor', 4, 8921, 'md', '2025-09-08 00:34:01', 'creature'),
+(28592, 'Tamiyo, Inquisitive Student', 3, 8921, 'md', '2025-09-08 00:34:01', 'planeswalker'),
+(28593, 'Thassa\'s Oracle', 1, 8921, 'md', '2025-09-08 00:34:01', 'creature'),
+(28594, 'Brainstorm', 4, 8921, 'md', '2025-09-08 00:34:01', 'instant'),
+(28595, 'Daze', 2, 8921, 'md', '2025-09-08 00:34:01', 'instant'),
+(28596, 'Dread Return', 1, 8921, 'md', '2025-09-08 00:34:01', 'sorcery'),
+(28597, 'Force of Will', 4, 8921, 'md', '2025-09-08 00:34:01', 'instant'),
+(28598, 'Memory\'s Journey', 1, 8921, 'md', '2025-09-08 00:34:01', 'instant'),
+(28599, 'Ponder', 4, 8921, 'md', '2025-09-08 00:34:01', 'sorcery'),
+(28600, 'Prismatic Ending', 1, 8921, 'md', '2025-09-08 00:34:01', 'sorcery'),
+(28601, 'Swords to Plowshares', 3, 8921, 'md', '2025-09-08 00:34:01', 'instant'),
+(28602, 'Shuko', 2, 8921, 'md', '2025-09-08 00:34:01', 'artifact'),
+(28603, 'Consign to Memory', 1, 8921, 'sb', '2025-09-08 00:34:01', 'instant'),
+(28604, 'Faerie Macabre', 2, 8921, 'sb', '2025-09-08 00:34:01', 'creature'),
+(28605, 'Flusterstorm', 1, 8921, 'sb', '2025-09-08 00:34:01', 'instant'),
+(28606, 'Force of Negation', 3, 8921, 'sb', '2025-09-08 00:34:01', 'instant'),
+(28607, 'Ghost Vacuum', 1, 8921, 'sb', '2025-09-08 00:34:01', 'artifact'),
+(28608, 'Pithing Needle', 1, 8921, 'sb', '2025-09-08 00:34:01', 'artifact'),
+(28609, 'Prismatic Ending', 2, 8921, 'sb', '2025-09-08 00:34:01', 'sorcery'),
+(28610, 'Serenity', 1, 8921, 'sb', '2025-09-08 00:34:01', 'enchantment'),
+(28611, 'Surgical Extraction', 1, 8921, 'sb', '2025-09-08 00:34:01', 'instant'),
+(28612, 'Swords to Plowshares', 1, 8921, 'sb', '2025-09-08 00:34:01', 'instant'),
+(28613, 'Voice of Victory', 1, 8921, 'sb', '2025-09-08 00:34:01', 'creature'),
+(28614, 'Flooded Strand', 2, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28615, 'Island', 1, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28616, 'Misty Rainforest', 2, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28617, 'Polluted Delta', 2, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28618, 'Scalding Tarn', 2, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28619, 'Thundering Falls', 1, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28620, 'Volcanic Island', 4, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28621, 'Wasteland', 4, 8922, 'md', '2025-09-08 00:34:19', 'land'),
+(28622, 'Brazen Borrower', 2, 8922, 'md', '2025-09-08 00:34:19', 'creature'),
+(28623, 'Dragon\'s Rage Channeler', 4, 8922, 'md', '2025-09-08 00:34:19', 'creature'),
+(28624, 'Murktide Regent', 2, 8922, 'md', '2025-09-08 00:34:19', 'creature'),
+(28625, 'Brainstorm', 4, 8922, 'md', '2025-09-08 00:34:19', 'instant'),
+(28626, 'Chain Lightning', 2, 8922, 'md', '2025-09-08 00:34:19', 'sorcery'),
+(28627, 'Daze', 4, 8922, 'md', '2025-09-08 00:34:19', 'instant'),
+(28628, 'Force of Will', 4, 8922, 'md', '2025-09-08 00:34:19', 'instant'),
+(28629, 'Lightning Bolt', 4, 8922, 'md', '2025-09-08 00:34:19', 'instant'),
+(28630, 'Ponder', 4, 8922, 'md', '2025-09-08 00:34:19', 'sorcery'),
+(28631, 'Preordain', 2, 8922, 'md', '2025-09-08 00:34:19', 'sorcery'),
+(28632, 'Unholy Heat', 2, 8922, 'md', '2025-09-08 00:34:19', 'instant'),
+(28633, 'Cori-Steel Cutter', 4, 8922, 'md', '2025-09-08 00:34:19', 'artifact'),
+(28634, 'Mishra\'s Bauble', 4, 8922, 'md', '2025-09-08 00:34:19', 'artifact'),
+(28635, 'Blood Moon', 1, 8922, 'sb', '2025-09-08 00:34:19', 'enchantment'),
+(28636, 'Faerie Macabre', 1, 8922, 'sb', '2025-09-08 00:34:19', 'creature'),
+(28637, 'Force of Negation', 2, 8922, 'sb', '2025-09-08 00:34:19', 'instant'),
+(28638, 'Grafdigger\'s Cage', 2, 8922, 'sb', '2025-09-08 00:34:19', 'artifact'),
+(28639, 'Hydroblast', 2, 8922, 'sb', '2025-09-08 00:34:19', 'instant'),
+(28640, 'Meltdown', 1, 8922, 'sb', '2025-09-08 00:34:19', 'sorcery'),
+(28641, 'Null Rod', 2, 8922, 'sb', '2025-09-08 00:34:19', 'artifact'),
+(28642, 'Pyroblast', 3, 8922, 'sb', '2025-09-08 00:34:19', 'instant'),
+(28643, 'Surgical Extraction', 1, 8922, 'sb', '2025-09-08 00:34:19', 'instant'),
+(28644, 'Bayou', 1, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28645, 'Misty Rainforest', 2, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28646, 'Polluted Delta', 4, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28647, 'Tropical Island', 2, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28648, 'Undercity Sewers', 1, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28649, 'Underground Sea', 3, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28650, 'Verdant Catacombs', 3, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28651, 'Wasteland', 4, 8923, 'md', '2025-09-08 00:34:39', 'land'),
+(28652, 'Baleful Strix', 2, 8923, 'md', '2025-09-08 00:34:39', 'creature'),
+(28653, 'Barrowgoyf', 3, 8923, 'md', '2025-09-08 00:34:39', 'creature'),
+(28654, 'Brazen Borrower', 1, 8923, 'md', '2025-09-08 00:34:39', 'creature'),
+(28655, 'Orcish Bowmasters', 4, 8923, 'md', '2025-09-08 00:34:39', 'creature'),
+(28656, 'Tamiyo, Inquisitive Student', 3, 8923, 'md', '2025-09-08 00:34:39', 'planeswalker'),
+(28657, 'Abrupt Decay', 2, 8923, 'md', '2025-09-08 00:34:39', 'instant'),
+(28658, 'Assassin\'s Trophy', 1, 8923, 'md', '2025-09-08 00:34:39', 'instant'),
+(28659, 'Brainstorm', 4, 8923, 'md', '2025-09-08 00:34:39', 'instant'),
+(28660, 'Daze', 3, 8923, 'md', '2025-09-08 00:34:39', 'instant'),
+(28661, 'Fatal Push', 2, 8923, 'md', '2025-09-08 00:34:39', 'instant'),
+(28662, 'Force of Will', 4, 8923, 'md', '2025-09-08 00:34:39', 'instant'),
+(28663, 'Life from the Loam', 1, 8923, 'md', '2025-09-08 00:34:39', 'sorcery'),
+(28664, 'Ponder', 3, 8923, 'md', '2025-09-08 00:34:39', 'sorcery'),
+(28665, 'Rakshasa\'s Bargain', 1, 8923, 'md', '2025-09-08 00:34:39', 'instant'),
+(28666, 'Thoughtseize', 3, 8923, 'md', '2025-09-08 00:34:39', 'sorcery'),
+(28667, 'Witherbloom Command', 1, 8923, 'md', '2025-09-08 00:34:39', 'sorcery'),
+(28668, 'Grist, the Hunger Tide', 1, 8923, 'md', '2025-09-08 00:34:39', 'planeswalker'),
+(28669, 'Kaito, Bane of Nightmares', 1, 8923, 'md', '2025-09-08 00:34:39', 'planeswalker'),
+(28670, 'Collector Ouphe', 3, 8923, 'sb', '2025-09-08 00:34:39', 'creature'),
+(28671, 'Consign to Memory', 2, 8923, 'sb', '2025-09-08 00:34:39', 'instant'),
+(28672, 'Force of Negation', 1, 8923, 'sb', '2025-09-08 00:34:39', 'instant'),
+(28673, 'Hydroblast', 2, 8923, 'sb', '2025-09-08 00:34:39', 'instant'),
+(28674, 'Nihil Spellbomb', 2, 8923, 'sb', '2025-09-08 00:34:39', 'artifact'),
+(28675, 'Sheoldred\'s Edict', 1, 8923, 'sb', '2025-09-08 00:34:39', 'instant'),
+(28676, 'Surgical Extraction', 2, 8923, 'sb', '2025-09-08 00:34:39', 'instant'),
+(28677, 'Toxic Deluge', 1, 8923, 'sb', '2025-09-08 00:34:39', 'sorcery'),
+(28678, 'Veil of Summer', 1, 8923, 'sb', '2025-09-08 00:34:39', 'instant'),
+(28679, 'Ancient Tomb', 1, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28680, 'Bojuka Bog', 1, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28681, 'Boseiju, Who Endures', 2, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28682, 'Cloudpost', 4, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28683, 'Echoing Deeps', 2, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28684, 'Eye of Ugin', 1, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28685, 'Forest', 2, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28686, 'Glimmerpost', 2, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28687, 'Karakas', 1, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28688, 'Planar Nexus', 4, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28689, 'Urza\'s Tower', 4, 8924, 'md', '2025-09-08 00:35:00', 'land'),
+(28690, 'Elvish Spirit Guide', 4, 8924, 'md', '2025-09-08 00:35:00', 'creature'),
+(28691, 'Emrakul, the Aeons Torn', 1, 8924, 'md', '2025-09-08 00:35:00', 'creature'),
+(28692, 'Ulamog, the Ceaseless Hunger', 1, 8924, 'md', '2025-09-08 00:35:00', 'creature'),
+(28693, 'Crop Rotation', 4, 8924, 'md', '2025-09-08 00:35:00', 'instant'),
+(28694, 'Kozilek\'s Command', 4, 8924, 'md', '2025-09-08 00:35:00', 'instant'),
+(28695, 'Once Upon a Time', 4, 8924, 'md', '2025-09-08 00:35:00', 'instant'),
+(28696, 'Disruptor Flute', 2, 8924, 'md', '2025-09-08 00:35:00', 'artifact'),
+(28697, 'Karn\'s Sylex', 3, 8924, 'md', '2025-09-08 00:35:00', 'artifact'),
+(28698, 'Karn, the Great Creator', 4, 8924, 'md', '2025-09-08 00:35:00', 'planeswalker'),
+(28699, 'Soul-Guide Lantern', 3, 8924, 'md', '2025-09-08 00:35:00', 'artifact'),
+(28700, 'The One Ring', 3, 8924, 'md', '2025-09-08 00:35:00', 'artifact'),
+(28701, 'Ugin, Eye of the Storms', 3, 8924, 'md', '2025-09-08 00:35:00', 'planeswalker'),
+(28702, 'Dismember', 3, 8924, 'sb', '2025-09-08 00:35:00', 'instant'),
+(28703, 'Disruptor Flute', 1, 8924, 'sb', '2025-09-08 00:35:00', 'artifact'),
+(28704, 'Ensnaring Bridge', 1, 8924, 'sb', '2025-09-08 00:35:00', 'artifact'),
+(28705, 'Faerie Macabre', 2, 8924, 'sb', '2025-09-08 00:35:00', 'creature'),
+(28706, 'Force of Vigor', 2, 8924, 'sb', '2025-09-08 00:35:00', 'instant'),
+(28707, 'Mycosynth Lattice', 1, 8924, 'sb', '2025-09-08 00:35:00', 'artifact'),
+(28708, 'The One Ring', 1, 8924, 'sb', '2025-09-08 00:35:00', 'artifact'),
+(28709, 'Tormod\'s Crypt', 1, 8924, 'sb', '2025-09-08 00:35:00', 'artifact'),
+(28710, 'Veil of Summer', 2, 8924, 'sb', '2025-09-08 00:35:00', 'instant'),
+(28711, 'Walking Ballista', 1, 8924, 'sb', '2025-09-08 00:35:00', 'creature'),
+(28712, 'Balustrade Spy', 4, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28713, 'Boggart Trawler', 4, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28714, 'Elvish Spirit Guide', 4, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28715, 'Narcomoeba', 3, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28716, 'Poxwalkers', 2, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28717, 'Simian Spirit Guide', 4, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28718, 'Thassa\'s Oracle', 1, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28719, 'Undercity Informer', 4, 8925, 'md', '2025-09-08 00:35:16', 'creature'),
+(28720, 'Agadeem\'s Awakening', 4, 8925, 'md', '2025-09-08 00:35:16', 'land'),
+(28721, 'Cabal Ritual', 3, 8925, 'md', '2025-09-08 00:35:16', 'instant'),
+(28722, 'Cabal Therapy', 2, 8925, 'md', '2025-09-08 00:35:16', 'sorcery'),
+(28723, 'Dark Ritual', 4, 8925, 'md', '2025-09-08 00:35:16', 'instant'),
+(28724, 'Dread Return', 1, 8925, 'md', '2025-09-08 00:35:16', 'sorcery'),
+(28725, 'Fell the Profane', 4, 8925, 'md', '2025-09-08 00:35:16', 'land'),
+(28726, 'Memory\'s Journey', 1, 8925, 'md', '2025-09-08 00:35:16', 'instant'),
+(28727, 'Pact of Negation', 4, 8925, 'md', '2025-09-08 00:35:16', 'instant'),
+(28728, 'Reanimate', 1, 8925, 'md', '2025-09-08 00:35:16', 'sorcery'),
+(28729, 'Thoughtseize', 4, 8925, 'md', '2025-09-08 00:35:16', 'sorcery'),
+(28730, 'Bridge from Below', 1, 8925, 'md', '2025-09-08 00:35:16', 'enchantment'),
+(28731, 'Jack-o\'-Lantern', 1, 8925, 'md', '2025-09-08 00:35:16', 'artifact'),
+(28732, 'Lotus Petal', 4, 8925, 'md', '2025-09-08 00:35:16', 'artifact'),
+(28733, 'Duress', 3, 8925, 'sb', '2025-09-08 00:35:16', 'sorcery'),
+(28734, 'Faerie Macabre', 2, 8925, 'sb', '2025-09-08 00:35:16', 'creature'),
+(28735, 'Goblin Charbelcher', 4, 8925, 'sb', '2025-09-08 00:35:16', 'artifact'),
+(28736, 'Lion\'s Eye Diamond', 2, 8925, 'sb', '2025-09-08 00:35:16', 'artifact'),
+(28737, 'Nature\'s Claim', 3, 8925, 'sb', '2025-09-08 00:35:16', 'instant'),
+(28738, 'Thassa\'s Oracle', 1, 8925, 'sb', '2025-09-08 00:35:16', 'creature'),
+(28739, 'Bloodstained Mire', 1, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28740, 'Flooded Strand', 1, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28741, 'Island', 1, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28742, 'Misty Rainforest', 1, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28743, 'Polluted Delta', 4, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28744, 'Scalding Tarn', 1, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28745, 'Swamp', 1, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28746, 'Undercity Sewers', 2, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28747, 'Underground Sea', 3, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28748, 'Verdant Catacombs', 1, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28749, 'Wasteland', 3, 8926, 'md', '2025-09-08 00:35:30', 'land'),
+(28750, 'Archon of Cruelty', 1, 8926, 'md', '2025-09-08 00:35:30', 'creature'),
+(28751, 'Atraxa, Grand Unifier', 1, 8926, 'md', '2025-09-08 00:35:30', 'creature'),
+(28752, 'Brazen Borrower', 2, 8926, 'md', '2025-09-08 00:35:30', 'creature'),
+(28753, 'Murktide Regent', 2, 8926, 'md', '2025-09-08 00:35:30', 'creature'),
+(28754, 'Orcish Bowmasters', 3, 8926, 'md', '2025-09-08 00:35:30', 'creature'),
+(28755, 'Tamiyo, Inquisitive Student', 4, 8926, 'md', '2025-09-08 00:35:30', 'planeswalker'),
+(28756, 'Brainstorm', 4, 8926, 'md', '2025-09-08 00:35:30', 'instant'),
+(28757, 'Daze', 3, 8926, 'md', '2025-09-08 00:35:30', 'instant'),
+(28758, 'Entomb', 4, 8926, 'md', '2025-09-08 00:35:30', 'instant'),
+(28759, 'Force of Will', 4, 8926, 'md', '2025-09-08 00:35:30', 'instant'),
+(28760, 'Ponder', 4, 8926, 'md', '2025-09-08 00:35:30', 'sorcery'),
+(28761, 'Reanimate', 4, 8926, 'md', '2025-09-08 00:35:30', 'sorcery'),
+(28762, 'Thoughtseize', 4, 8926, 'md', '2025-09-08 00:35:30', 'sorcery'),
+(28763, 'Animate Dead', 1, 8926, 'md', '2025-09-08 00:35:30', 'enchantment'),
+(28764, 'Barrowgoyf', 3, 8926, 'sb', '2025-09-08 00:35:30', 'creature'),
+(28765, 'Consign to Memory', 2, 8926, 'sb', '2025-09-08 00:35:30', 'instant'),
+(28766, 'Dauthi Voidwalker', 3, 8926, 'sb', '2025-09-08 00:35:30', 'creature'),
+(28767, 'Engineered Explosives', 1, 8926, 'sb', '2025-09-08 00:35:30', 'artifact'),
+(28768, 'Fatal Push', 3, 8926, 'sb', '2025-09-08 00:35:30', 'instant'),
+(28769, 'Force of Negation', 2, 8926, 'sb', '2025-09-08 00:35:30', 'instant'),
+(28770, 'Sheoldred\'s Edict', 1, 8926, 'sb', '2025-09-08 00:35:30', 'instant');
 
 -- --------------------------------------------------------
 
@@ -29318,7 +29574,15 @@ INSERT INTO `deck` (`id`, `name`, `idPlayer`, `datetime`) VALUES
 (8915, 'Cephalid', 896, '2025-08-10 08:52:08'),
 (8916, 'Show&tell', 897, '2025-08-10 08:52:29'),
 (8917, 'Ub Reanimate', 898, '2025-08-10 08:52:48'),
-(8918, 'Ub Tempo', 899, '2025-08-10 08:53:06');
+(8918, 'Ub Tempo', 899, '2025-08-10 08:53:06'),
+(8919, 'Nadu Cradle Combo', 900, '2025-09-08 00:33:00'),
+(8920, 'Artifacts Blue', 901, '2025-09-08 00:33:22'),
+(8921, 'Cephalid Breakfast', 902, '2025-09-08 00:33:45'),
+(8922, 'Izzet Cutter', 903, '2025-09-08 00:34:05'),
+(8923, 'BUG Midrange', 904, '2025-09-08 00:34:23'),
+(8924, 'Cloudpost', 905, '2025-09-08 00:34:42'),
+(8925, 'Oops! All Spells', 906, '2025-09-08 00:35:03'),
+(8926, 'Ub Reanimator', 907, '2025-09-08 00:35:19');
 
 -- --------------------------------------------------------
 
@@ -30270,7 +30534,15 @@ INSERT INTO `player` (`id`, `name`, `position`, `idTournament`, `idDeck`, `datet
 (896, 'Sergio Olivencia', 5, 223, 8915, '2025-08-10 08:50:47'),
 (897, 'Carles Mesegue ', 6, 223, 8916, '2025-08-10 08:50:50'),
 (898, 'Toni Gallego', 7, 223, 8917, '2025-08-10 08:50:53'),
-(899, 'Eric Fonseca', 8, 223, 8918, '2025-08-10 08:50:56');
+(899, 'Eric Fonseca', 8, 223, 8918, '2025-08-10 08:50:56'),
+(900, 'Sergi Juan De La Cruz', 1, 224, 8919, '2025-09-08 00:32:30'),
+(901, 'Riccardo Bragato', 2, 224, 8920, '2025-09-08 00:32:34'),
+(902, 'Alberto Perujo', 3, 224, 8921, '2025-09-08 00:32:39'),
+(903, 'Alejandro Martín López ', 4, 224, 8922, '2025-09-08 00:32:42'),
+(904, 'Lorenzo Tassone', 5, 224, 8923, '2025-09-08 00:32:46'),
+(905, 'Juan Luis Martos Martinez', 6, 224, 8924, '2025-09-08 00:32:50'),
+(906, 'Roger Riera', 7, 224, 8925, '2025-09-08 00:32:53'),
+(907, 'Josan Badia', 8, 224, 8926, '2025-09-08 00:32:57');
 
 -- --------------------------------------------------------
 
@@ -30364,7 +30636,7 @@ INSERT INTO `tournament` (`id`, `idTournament`, `name`, `date`, `idLeague`, `pla
 (208, 208, 'LIL novembre 2023', '04/11/23', 230000, 41, '2025-04-17 13:09:25'),
 (209, 209, 'LCL novembre 2023', '25/11/23', 23, 23, '2025-04-17 13:09:29'),
 (210, 210, 'LIL desembre 2023', '16/12/23', 230000, 29, '2025-04-17 13:09:32'),
-(211, 45321, '2° Duels of Duals @ Vilafranca del Penedes', '17/06/23', 6, 25, '2025-04-18 18:44:05'),
+(211, 45321, 'Duels of Duals II @ Vilafranca del Penedes', '17/06/23', 6, 25, '2025-04-18 18:44:05'),
 (212, 59281, 'Duels of Duals III @ Vilafranca del Penedes', '07/09/24', 2, 17, '2025-04-18 18:47:37'),
 (213, 38196, '1st Duel for Duals @ Barcelona', '03/09/22', 22, 41, '2025-04-18 18:58:03'),
 (214, 51884, 'Final LCL 2023', '20/01/24', 23, 26, '2025-04-18 19:37:42'),
@@ -30376,7 +30648,8 @@ INSERT INTO `tournament` (`id`, `idTournament`, `name`, `date`, `idLeague`, `pla
 (220, 71150, 'LCL Ingenio 2025', '12/07/25', 3, 44, '2025-07-15 10:44:45'),
 (221, 71416, 'Lliga Minoria 2025', '19/07/25', 4, 18, '2025-07-20 17:17:00'),
 (222, 72000, 'LCL Ingenio 2025', '02/08/25', 3, 41, '2025-08-05 08:14:40'),
-(223, 72225, 'Lliga Minoria 2025', '09/08/25', 4, 29, '2025-08-10 08:50:30');
+(223, 72225, 'Lliga Minoria 2025', '09/08/25', 4, 29, '2025-08-10 08:50:30'),
+(224, 73371, 'Duels of Duals IV @ Vilafranca del Penedes', '06/09/25', 4, 19, '2025-09-08 00:32:26');
 
 --
 -- Índices para tablas volcadas
@@ -30427,13 +30700,13 @@ ALTER TABLE `tournament`
 -- AUTO_INCREMENT de la tabla `cards`
 --
 ALTER TABLE `cards`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28515;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28771;
 
 --
 -- AUTO_INCREMENT de la tabla `deck`
 --
 ALTER TABLE `deck`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8919;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8927;
 
 --
 -- AUTO_INCREMENT de la tabla `league`
@@ -30445,13 +30718,13 @@ ALTER TABLE `league`
 -- AUTO_INCREMENT de la tabla `player`
 --
 ALTER TABLE `player`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=900;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=908;
 
 --
 -- AUTO_INCREMENT de la tabla `tournament`
 --
 ALTER TABLE `tournament`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=224;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=225;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
