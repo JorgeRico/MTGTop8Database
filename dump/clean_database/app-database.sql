@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: app-database
--- Tiempo de generación: 17-04-2025 a las 09:49:43
+-- Tiempo de generación: 24-09-2025 a las 00:14:00
 -- Versión del servidor: 5.7.44
 -- Versión de PHP: 8.2.27
 
@@ -34,32 +34,33 @@ CREATE TABLE `cards` (
   `idDeck` int(11) NOT NULL,
   `board` varchar(255) NOT NULL,
   `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `cardType` varchar(255) NOT NULL
+  `cardType` varchar(255) NOT NULL,
+  `imgUrl` varchar(255) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `deck`
+-- Estructura de tabla para la tabla `decks`
 --
 
-CREATE TABLE `deck` (
+CREATE TABLE `decks` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `idPlayer` int(11) NOT NULL,
+  `cardsLoaded` tinyint(1) NOT NULL DEFAULT '0',
   `datetime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `league`
+-- Estructura de tabla para la tabla `leagues`
 --
 
-CREATE TABLE `league` (
+CREATE TABLE `leagues` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `isLegacy` tinyint(1) NOT NULL DEFAULT '1',
+  `isLegacy` tinyint(2) NOT NULL DEFAULT '1',
   `year` int(11) NOT NULL,
   `current` tinyint(1) NOT NULL DEFAULT '0',
   `active` tinyint(1) NOT NULL DEFAULT '0'
@@ -68,10 +69,10 @@ CREATE TABLE `league` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `player`
+-- Estructura de tabla para la tabla `players`
 --
 
-CREATE TABLE `player` (
+CREATE TABLE `players` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `position` int(11) NOT NULL,
@@ -83,10 +84,10 @@ CREATE TABLE `player` (
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `tournament`
+-- Estructura de tabla para la tabla `tournaments`
 --
 
-CREATE TABLE `tournament` (
+CREATE TABLE `tournaments` (
   `id` int(11) NOT NULL,
   `idTournament` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
@@ -110,30 +111,30 @@ ALTER TABLE `cards`
   ADD KEY `board_cardType_idx` (`board`,`cardType`) USING BTREE;
 
 --
--- Indices de la tabla `deck`
+-- Indices de la tabla `decks`
 --
-ALTER TABLE `deck`
+ALTER TABLE `decks`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `id_idPlayer_idx` (`id`,`idPlayer`) USING BTREE;
+  ADD KEY `id_idPlayer_idx` (`id`) USING BTREE;
 
 --
--- Indices de la tabla `league`
+-- Indices de la tabla `leagues`
 --
-ALTER TABLE `league`
+ALTER TABLE `leagues`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indices de la tabla `player`
+-- Indices de la tabla `players`
 --
-ALTER TABLE `player`
+ALTER TABLE `players`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_idTournament_idx` (`id`,`idTournament`) USING BTREE,
   ADD KEY `id_idTournament_idDeck_idx` (`id`,`idTournament`,`idDeck`) USING BTREE;
 
 --
--- Indices de la tabla `tournament`
+-- Indices de la tabla `tournaments`
 --
-ALTER TABLE `tournament`
+ALTER TABLE `tournaments`
   ADD PRIMARY KEY (`id`),
   ADD KEY `id_idTournament_idLeague_idx` (`id`,`idTournament`,`idLeague`);
 
@@ -148,27 +149,27 @@ ALTER TABLE `cards`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT de la tabla `deck`
+-- AUTO_INCREMENT de la tabla `decks`
 --
-ALTER TABLE `deck`
+ALTER TABLE `decks`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT de la tabla `league`
+-- AUTO_INCREMENT de la tabla `leagues`
 --
-ALTER TABLE `league`
+ALTER TABLE `leagues`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT de la tabla `player`
+-- AUTO_INCREMENT de la tabla `players`
 --
-ALTER TABLE `player`
+ALTER TABLE `players`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT de la tabla `tournament`
+-- AUTO_INCREMENT de la tabla `tournaments`
 --
-ALTER TABLE `tournament`
+ALTER TABLE `tournaments`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
