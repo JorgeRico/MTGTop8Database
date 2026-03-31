@@ -1,39 +1,39 @@
 services:
   app-database:
     container_name: app-database
-    image: mysql:5.7
-    command: mysqld --sql_mode=STRICT_TRANS_TABLES
+    platform: linux/arm64
+    image: postgres:17
     ports:
-      - "3308:3306"
+      - "5432:5432"
     networks:
       - app-network
-    restart: always
+    restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: app-database
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: app_database
     volumes:
       - ./data/:/docker-entrypoint-initdb.d
+      - pg_data:/var/lib/postgresql/data
 
-  # Dashboard DB Container
   dashboard:
-    container_name: phpmyadmin-top8
-    image: phpmyadmin/phpmyadmin:latest
+    container_name: pgadmin
+    image: dpage/pgadmin4
     ports:
       - "18081:80"
     depends_on:
       - app-database
     environment:
-      - "PMA_HOST=app-database"
+      PGADMIN_DEFAULT_EMAIL: admin@test.com
+      PGADMIN_DEFAULT_PASSWORD: password
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
     networks:
       - app-network
-
 volumes:
-  app_db_volume:
-    driver: local
+  pg_data:
+  pgadmin_data:
 
 networks:
   app-network:
     driver: bridge
-    name: app-network

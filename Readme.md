@@ -3,27 +3,38 @@
 #### Description
 
 ````
-> Utilities to process and import old access data to mysql
+> Utilities to process and import old access data to postgresql
 
 > Connected with potsgresql on supabasePython fastapi
-> Technology: mysql + phpmyadmin
+> Technology: postgresql + pg-yadmin
 > Can be tested on docker
 ````
 
 #### Container build
 ````
-- docker-compose build
 - docker-compose up -d
 ````
 
-## Database dumps
+## Database data autoload dump
 ````
-- /dump/clean_database
-- /dump/last
+- /data/
 ````
 
-## phpMyadmnin
+## Database last dump
+````
+- /dump/
+````
+
+## pg-admnin
 - [http://localhost:18081](http://localhost:18081)
+- PGADMIN_DEFAULT_EMAIL: admin@test.com
+- PGADMIN_DEFAULT_PASSWORD: password
+- create db connection (local config):
+````
+POSTGRES_USER: postgres
+POSTGRES_PASSWORD: password
+POSTGRES_DB: app_database
+````
 
 ## Notes
 - If you want to load a different database, add .sql file on /data/ folder
